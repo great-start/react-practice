@@ -6,7 +6,7 @@ const getAll = () => {
 }
 
 const getId = (id) => {
-    return fetch(`${urls.users}/` + id)
+    return fetch(`${urls.users}/${id}`)
         .then(response => response.json());
 }
 

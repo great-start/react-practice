@@ -31,21 +31,17 @@ import React, {useState} from 'react';
 //
 // }
 
-function Users({id, name, showUser,}) {
+// function Users({id, name, showUser}) {
+//
+//     return (
+//         <div>
+//             {id}---{name}
+//             <button onClick={() => {
+//                 showUser(id)
+//             }}>ShowName
+//             </button>
+//         </div>
+//     );
+// }
 
-    // console.log(showUser);
-
-    return (
-        <div>
-            {id}---{name}
-            <button onClick={() => {
-                showUser(id)
-            }}>ShowName
-            </button>
-        </div>
-    );
-}
-
-
-
-export default Users;
+// export default Users;
